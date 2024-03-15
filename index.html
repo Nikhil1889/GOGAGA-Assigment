@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gogaga Holidays</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-auto">
+                    <h1 class="fw-bold">Gogaga Holidays</h1>
+                </div>
+                <div class="col-auto">
+                    <nav>
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item"><a class="text-white" href="#holiday-packages">Holiday Packages</a></li>
+                            <li class="list-inline-item"><a class="text-white" href="#flight-booking">Flight Booking</a></li>
+                            <li class="list-inline-item"><a class="text-white" href="#hotel-booking">Hotel Booking</a></li>
+                            <li class="list-inline-item"><a class="text-white" href="#package-collections">Package Collections</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="holiday-packages" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Holiday Packages</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="beach-vacation.jpg" class="card-img-top" alt="Beach Vacation">
+                        <div class="card-body">
+                            <h5 class="card-title">Beach Vacation</h5>
+                            <p class="card-text">Escape to pristine beaches with our exclusive Beach Vacation package. Enjoy sunbathing, water sports, and luxury accommodations.</p>
+                            <p class="card-text">Price: $1500</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="mountain-retreat.jpg" class="card-img-top" alt="Mountain Retreat">
+                        <div class="card-body">
+                            <h5 class="card-title">Mountain Retreat</h5>
+                            <p class="card-text">Experience the serenity of the mountains with our Mountain Retreat package. Hike through breathtaking trails and stay in cozy mountain lodges.</p>
+                            <p class="card-text">Price: $1200</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="flight-booking" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Flight Booking</h2>
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="departure">Departure:</label>
+                            <input type="text" class="form-control" id="departure" name="departure" placeholder="Enter departure city">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="destination">Destination:</label>
+                            <input type="text" class="form-control" id="destination" name="destination" placeholder="Enter destination city">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="departure-date">Departure Date:</label>
+                            <input type="date" class="form-control" id="departure-date" name="departure-date">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <button type="submit" class="btn btn-primary">Search Flights</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section id="hotel-booking" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Hotel Booking</h2>
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="location">Location:</label>
+                            <input type="text" class="form-control" id="location" name="location" placeholder="Enter city or hotel name">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="check-in">Check-in Date:</label>
+                            <input type="date" class="form-control" id="check-in" name="check-in">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="check-out">Check-out Date:</label>
+                            <input type="date" class="form-control" id="check-out" name="check-out">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <button type="submit" class="btn btn-primary">Search Hotels</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section id="package-collections" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Package Collections</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="family-adventure.jpg" class="card-img-top" alt="Family Adventure">
+                        <div class="card-body">
+                            <h5 class="card-title">Family Adventure</h5>
+                            <p class="card-text">Embark on an unforgettable adventure with our Family Adventure collection. Enjoy activities suitable for all ages and create lasting memories with your loved ones.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="luxury-escapes.jpg" class="card-img-top" alt="Luxury Escapes">
+                        <div class="card-body">
+                            <h5 class="card-title">Luxury Escapes</h5>
+                            <p class="card-text">Indulge in luxury and extravagance with our Luxury Escapes collection. Experience world-class amenities, personalized service, and opulent accommodations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <p class="text-center">&copy; 2024 Gogaga Holidays. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
